@@ -1,14 +1,14 @@
-package br.com.fiap.consumo_api.principal;
+package br.com.fiap.consumoapi.principal;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import br.com.fiap.consumo_api.model.DadosEpisodio;
-import br.com.fiap.consumo_api.model.DadosSerie;
-import br.com.fiap.consumo_api.model.DadosTemporada;
-import br.com.fiap.consumo_api.service.ConsumoApi;
-import br.com.fiap.consumo_api.service.ConverteDados;
+import br.com.fiap.consumoapi.model.DadosEpisodio;
+import br.com.fiap.consumoapi.model.DadosSerie;
+import br.com.fiap.consumoapi.model.DadosTemporada;
+import br.com.fiap.consumoapi.service.ConsumoApi;
+import br.com.fiap.consumoapi.service.ConverteDados;
 
 public class Principal {
 	

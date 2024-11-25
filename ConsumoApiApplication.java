@@ -1,13 +1,27 @@
-package br.com.fiap.consumo_api;
+package br.com.fiap.consumoapi;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class ConsumoApiApplication {
+import br.com.fiap.consumoapi.principal.Principal;
 
-	public static void main(String[] args) {
+@SpringBootApplication
+public class ConsumoApiApplication implements CommandLineRunner {
+
+	public static void main(String[] args)  {
 		SpringApplication.run(ConsumoApiApplication.class, args);
 	}
 
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Principal principal = new Principal();
+		principal.exibeMenu();
+		
+
+		
+	}
+
+	
 }
